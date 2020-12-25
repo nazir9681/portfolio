@@ -69,6 +69,27 @@ hr {
 .back-end{
   display: none!important;
 }
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+
+button {
+  padding: 10px 20px;
+  outline: 1px dotted rgb(255, 255, 255);
+}
+
+.button-one {
+  background-color: black;
+  
+}
 @media only screen and (max-width: 600px) {
   .back-end{
     display: block!important;
@@ -131,7 +152,7 @@ hr {
         display: inline-block;
         opacity: 0;
       }
-    .display-4{
+    .back-end1{
         
         display: none;
     }
