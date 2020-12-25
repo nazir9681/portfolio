@@ -67,11 +67,11 @@ hr {
   height: 400px;
 }
 .back-end{
-  display: none;
+  display: none!important;
 }
 @media only screen and (max-width: 600px) {
   .back-end{
-    display: block;
+    display: block!important;
   }
   .gify{
     height: 300px
